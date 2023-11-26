@@ -1,3 +1,4 @@
+//Part1
 // The initial numbers that must be verified.
 const n1 = 15;
 const n2 = 10;
@@ -48,6 +49,17 @@ const TheFourNumbersAreValidAccordingtoTheProvidedCriteria = ((n1 + n2 + n3 + n4
   (n1 > n4) && 
   (((n1-n2)*3)%n4) && !((((n1-n2)*3)%n4)>25);
   console.log(TheFourNumbersAreValidAccordingtoTheProvidedCriteria)
+//Part2
+const distancetrip = 1500 //total distance of the trip
+const fuelefficiency = {
+    55:30, // miles per gallons at 55 mph
+    60:28, // miles per gallons at 60 mph
+    75:23, //miles per gallons at 75 mph
+}
+const budget = 175 // budget allocated for the trip
+const avgCostofFuel = 3 // the average cost of fuel per
+// How many gallons of fuel will we need for the entire trip
+function calculateFuel (mph) {
+    console.log(distancetrip/fuelefficiency);
+}
 
-  console.log(1+2===3)
-  
